@@ -1,14 +1,20 @@
-import { Flex, Link, Text } from "@chakra-ui/react";
+import { Box, Link, Text, Button } from "@chakra-ui/react";
+import { AiFillGithub } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <Flex as="footer" width="full" align="center">
+    <Box as="footer">
       <Text fontSize="sm">
         {new Date().getFullYear()} -{" "}
         <Link href="https://github.com/weiran0630" isExternal>
-          github.weiran0630
+          weiran0630
         </Link>
       </Text>
-    </Flex>
+      <Link href="https://github.com/weiran0630/fyp-webapp-frontend" isExternal>
+        <Button leftIcon={<AiFillGithub />} size="xs" mt={2}>
+          Open in Github
+        </Button>
+      </Link>
+    </Box>
   );
 }
