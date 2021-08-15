@@ -1,0 +1,12 @@
+{
+  "short_name": "fyp-webapp-frontend",
+  "name": "MCU AI admission predict",
+  "lang": "zh-TW",
+  "start_url": "/",
+  "background_color": "#FFFFFF",
+  "theme_color": "#FFFFFF",
+  "dir": "ltr",
+  "display": "standalone",
+  "orientation": "portrait",
+  "prefer_related_applications": false
+}

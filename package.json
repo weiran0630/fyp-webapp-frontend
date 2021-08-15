@@ -1,0 +1,42 @@
+{
+  "name": "mcu-fyp-ai-admission-predict",
+  "version": "0.1.0",
+  "private": true,
+  "author": "weiran",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^1.6.5",
+    "@emotion/react": "^11.1.5",
+    "@emotion/styled": "^11.3.0",
+    "@fontsource/lexend": "^4.5.0",
+    "axios": "^0.21.1",
+    "framer-motion": "^4.1.17",
+    "next": "^11.0.0",
+    "next-pwa": "^5.2.24",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-dropzone": "^11.3.4",
+    "react-icons": "^4.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "eslint": "^7.31.0",
+    "eslint-config-next": "^11.0.1",
+    "husky": "^7.0.0",
+    "lint-staged": "^11.0.1",
+    "prettier": "^2.3.2",
+    "typescript": "^4.3.5"
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  }
+}
