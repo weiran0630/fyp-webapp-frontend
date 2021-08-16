@@ -26,6 +26,7 @@ Final Year Project's frontend using Next.js framework and Chakra UI as styling.
     ```
 2. Install all Node.js dependencies 
     ```sh
+    cd fyp-webapp-frontend
     yarn install
     # or
     npm install
