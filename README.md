@@ -1,6 +1,6 @@
 # fyp-webapp-frontend
 <img width="1132" alt="Screen Shot" src="https://user-images.githubusercontent.com/64012303/129514601-eb2e4c3c-9cf2-4ef4-ac87-f12e22c32867.png">
-Final Year Project's frontend using Next.js framework and Chakra UI as styling.
+Final Year Project's frontend using Next.js framework and Chakra UI for styling.
 
 
 ### Built With
