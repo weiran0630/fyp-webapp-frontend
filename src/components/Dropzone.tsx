@@ -60,7 +60,7 @@ export default function Dropzone({
         borderRadius={2}
         borderStyle="dashed"
         borderColor={colorMode === "light" ? "gray.300" : "gray.400"}
-        backgroundColor={colorMode === "light" ? "gray.200" : "gray.500"}
+        bgColor={colorMode === "light" ? "gray.200" : "gray.500"}
         outline="none"
       >
         <input {...getInputProps()} formEncType="multipart/form-data" />

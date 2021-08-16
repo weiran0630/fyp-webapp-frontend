@@ -1,13 +1,20 @@
-import { Box, Flex, Heading, Image } from "@chakra-ui/react";
+import { Box, Flex, Heading } from "@chakra-ui/react";
 
 import AccessibleLink from "components/AccessibleLink";
+import ChakraNextImage from "components/ChakraNextImage";
 import ThemeToggle from "./ThemeToggle";
 
 export default function Header() {
   return (
-    <Flex as="header" width="full" align="center">
+    <Flex as="header" w="full" align="center">
       <AccessibleLink href="https://web.mcu.edu.tw/" isExternal>
-        <Image src="/mcu.png" alt="Ming Chuan University" height={8} mr={2} />
+        <ChakraNextImage
+          src="/mcu.png"
+          alt="Ming Chuan University"
+          w={8}
+          h={8}
+          mr={2}
+        />
       </AccessibleLink>
 
       <AccessibleLink href="/">
@@ -16,7 +23,7 @@ export default function Header() {
         </Heading>
       </AccessibleLink>
 
-      <Box marginLeft="auto">
+      <Box ml="auto">
         <ThemeToggle />
       </Box>
     </Flex>

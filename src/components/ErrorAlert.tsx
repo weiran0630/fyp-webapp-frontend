@@ -1,5 +1,4 @@
 import { Alert, AlertIcon, CloseButton } from "@chakra-ui/react";
-import { Dispatch, SetStateAction } from "react";
 
 interface ErrorAlertProps {
   error: string | null;

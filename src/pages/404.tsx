@@ -19,8 +19,8 @@ export default function Page404() {
       <MotionBox
         animate={{ y: 20 }}
         transition={{ repeat: Infinity, duration: 2, repeatType: "reverse" }}
-        width={["100%", "70%", "60%", "60%"]}
-        margin="0 auto"
+        w={["100%", "70%", "60%", "60%"]}
+        m="0 auto"
       >
         <Image
           src="/404 Error-pana.svg"
@@ -33,10 +33,10 @@ export default function Page404() {
         </ChakraLink>
       </Text>
 
-      <Box marginY={4}>
+      <Box my={4}>
         <Heading textAlign="center">Oops，看來沒有此頁。</Heading>
 
-        <Box textAlign="center" marginTop={4}>
+        <Box textAlign="center" mt={4}>
           <Link href="/" passHref>
             <Button
               backgroundColor={colorMode === "light" ? "gray.300" : "teal.500"}

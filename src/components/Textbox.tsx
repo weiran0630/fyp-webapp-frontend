@@ -5,8 +5,8 @@ export default function Textbox() {
 
   return (
     <Box
-      backgroundColor={colorMode === "light" ? "gray.200" : "gray.500"}
-      padding={4}
+      bgColor={colorMode === "light" ? "gray.200" : "gray.500"}
+      p={4}
       borderRadius={4}
     >
       <Text fontSize="sm">
