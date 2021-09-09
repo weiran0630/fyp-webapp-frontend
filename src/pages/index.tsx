@@ -17,7 +17,7 @@ export default function Home() {
     try {
       const res = await axios({
         method: "GET",
-        url: `https://fyp-fastapi-celery.herokuapp.com/tasks/${taskId}`,
+        url: `${process.env.NEXT_PUBLIC_HEROKU_TASKS_URL}/${taskId}`,
       });
       console.log(res);
 
@@ -30,7 +30,7 @@ export default function Home() {
         setTaskId(null);
         setLoading(false);
         // navigate to the download link
-        router.push(`https://fyp-fastapi-celery.herokuapp.com/tasks/${taskId}`);
+        router.push(`${process.env.NEXT_PUBLIC_HEROKU_TASKS_URL}/${taskId}`);
       }
     } catch (err) {
       setTaskId(null);

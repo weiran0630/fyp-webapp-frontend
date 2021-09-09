@@ -19,7 +19,7 @@ export default function Header() {
 
       <AccessibleLink href="/">
         <Heading as="h1" size="md">
-          銘傳大學AI入學預測系統
+          銘傳大學 AI 入學預測系統
         </Heading>
       </AccessibleLink>
 

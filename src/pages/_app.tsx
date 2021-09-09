@@ -1,7 +1,7 @@
 import { ChakraProvider } from "@chakra-ui/react";
 import { AppProps } from "next/app";
 import Head from "next/head";
-import "@fontsource/lexend/latin.css";
+import "@fontsource/noto-sans-tc";
 
 import Layout from "components/layout";
 import customTheme from "styles/customTheme";

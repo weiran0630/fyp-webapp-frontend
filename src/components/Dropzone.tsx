@@ -26,7 +26,7 @@ export default function Dropzone({
 
       axios({
         method: "POST",
-        url: "https://fyp-fastapi-celery.herokuapp.com/predict",
+        url: process.env.NEXT_PUBLIC_HEROKU_PREDICT_URL,
         data: formData,
       })
         .then((res) => {
@@ -38,6 +38,7 @@ export default function Dropzone({
         })
         .catch((err) => {
           setTaskId(null);
+          setLoading(false);
           setError(err.message);
         });
     },

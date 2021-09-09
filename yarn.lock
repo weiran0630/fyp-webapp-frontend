@@ -1566,6 +1566,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/lexend/-/lexend-4.5.0.tgz#bb15505d1597e9d66b2ebcd1ef5ed8ba1bbd1239"
   integrity sha512-WRyAtWH8qXPQLw9pvVw+8V2dC1ati3QCQhKBw5qbBgEcDcvYXilRcXOx59vtq/+SwqeAX1RKOWTALuhwJGcKXw==
 
+"@fontsource/noto-sans-tc@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/noto-sans-tc/-/noto-sans-tc-4.5.0.tgz#ea83a2c0851241464a9aea5facd9be7455b0f2dd"
+  integrity sha512-7z8aT4aY5EJ8gggfJhUhtXL/CZQQSZ+HBuhXxiHy+NkvZG2Jz+Aa1kxrsJivzroJuK9dySYN4Pd/GENJv5WFqA==
+
 "@hapi/accept@5.0.2":
   version "5.0.2"
   resolved "https://registry.yarnpkg.com/@hapi/accept/-/accept-5.0.2.tgz#ab7043b037e68b722f93f376afb05e85c0699523"

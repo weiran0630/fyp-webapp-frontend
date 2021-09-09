@@ -10,7 +10,8 @@ export default function Textbox() {
       borderRadius={4}
     >
       <Text fontSize="sm">
-        拖拽文件到以下拖放區或點擊選取檔案進行批次預測，處理時間視乎文件行數可能長達數分鐘，
+        拖拽文件到以下拖放區或點擊選取檔案進行批次預測，處理時間視乎文件行數可能長達數分鐘；
+        <br />
         <span style={{ fontWeight: "bold" }}>
           **期間請勿關閉瀏覽器視窗或此分頁**。
         </span>

@@ -15,6 +15,7 @@
     "@emotion/react": "^11.1.5",
     "@emotion/styled": "^11.3.0",
     "@fontsource/lexend": "^4.5.0",
+    "@fontsource/noto-sans-tc": "^4.5.0",
     "axios": "^0.21.1",
     "framer-motion": "^4.1.17",
     "next": "^11.0.0",
