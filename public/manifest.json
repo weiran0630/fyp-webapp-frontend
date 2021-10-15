@@ -1,7 +1,19 @@
 {
   "short_name": "fyp-webapp-frontend",
-  "name": "MCU AI admission predict",
-  "lang": "zh-TW",
+  "name": "銘傳大學AI入學預測系統",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "lang": "zh-Hant-TW",
   "start_url": "/",
   "background_color": "#FFFFFF",
   "theme_color": "#FFFFFF",

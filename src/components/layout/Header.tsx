@@ -9,7 +9,7 @@ export default function Header() {
     <Flex as="header" w="full" align="center">
       <AccessibleLink href="https://web.mcu.edu.tw/" isExternal>
         <ChakraNextImage
-          src="/mcu.png"
+          src="/icon.png"
           alt="Ming Chuan University"
           w={8}
           h={8}

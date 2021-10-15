@@ -21,7 +21,7 @@
     "framer-motion": "^4.1.17",
     "mapbox-gl": "^2.5.1",
     "next": "^11.0.0",
-    "next-pwa": "^5.2.24",
+    "next-pwa": "^5.3.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-dropzone": "^11.3.4",
