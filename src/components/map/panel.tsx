@@ -27,13 +27,13 @@ export default function Panel() {
     >
       <Heading fontSize="sm">地區——預測錄取人數</Heading>
 
-      <Text fontSize="3px" mt={1.5}>
+      <Text fontSize="smaller" mt={1.5}>
         移動游標到縣市區塊檢視詳細訊息
       </Text>
 
       <Box>
         <Box display="flex" flexDirection="row" alignItems="center">
-          <Text display="inline-block" fontSize="3px">
+          <Text display="inline-block" fontSize="smaller">
             較少
           </Text>
 
@@ -50,7 +50,7 @@ export default function Panel() {
             ))}
           </Box>
 
-          <Text display="inline-block" fontSize="2px">
+          <Text display="inline-block" fontSize="smaller">
             較多
           </Text>
         </Box>

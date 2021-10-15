@@ -26,6 +26,7 @@ export default function Dropzone({
       axios({
         method: "POST",
         url: process.env.NEXT_PUBLIC_HEROKU_PREDICT_URL,
+        // url: "http://localhost:5000/predict",
         data: formData,
       })
         .then((res) => {

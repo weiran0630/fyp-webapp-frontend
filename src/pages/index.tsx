@@ -20,6 +20,7 @@ export default function Home() {
       const res = await axios({
         method: "GET",
         url: `${process.env.NEXT_PUBLIC_HEROKU_TASKS_URL}/${taskId}`,
+        // url: `http://localhost:5000/tasks/${taskId}`,
       });
       console.log(res);
 
@@ -54,7 +55,12 @@ export default function Home() {
             使用說明
           </Heading>
 
-          <AccessibleLink href={`${process.env.NEXT_PUBLIC_HEROKU_FILE_URL}`}>
+          <AccessibleLink
+            href={
+              `${process.env.NEXT_PUBLIC_HEROKU_FILE_URL}`
+              // "http://localhost:5000/file"
+            }
+          >
             <Text
               display="inline-block"
               textColor="#bbb"
@@ -87,7 +93,10 @@ export default function Home() {
             </Heading>
 
             <AccessibleLink
-              href={`${process.env.NEXT_PUBLIC_HEROKU_FILE_URL}/${taskId}`}
+              href={
+                `${process.env.NEXT_PUBLIC_HEROKU_FILE_URL}/${taskId}`
+                // `http://localhost:5000/file/${taskId}`
+              }
             >
               <Text
                 display="inline-block"

@@ -96,7 +96,7 @@ export default function Map({ predictedData }: MapProps) {
             <Box textColor="black">
               <Text fontSize="sm">地區：{hoverInfo?.name}</Text>
 
-              <Text fontSize="5px" fontWeight="bold">
+              <Text fontSize="smaller" fontWeight="bold">
                 預測錄取人數：
                 {hoverInfo?.count}
               </Text>
