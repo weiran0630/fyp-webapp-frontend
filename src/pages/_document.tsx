@@ -1,7 +1,7 @@
 import Document, { Html, Head, Main, NextScript } from "next/document";
 
 const APP_NAME = "fyp-webapp-frontend";
-const APP_DESCRIPTION = "FYP frontend with Next.js Chakra-UI and TypeScript";
+const APP_DESCRIPTION = "銘傳大學資工系————深度學習申請入學預測分析";
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
