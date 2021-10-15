@@ -25,7 +25,7 @@ export default class MyDocument extends Document {
           <meta name="mobile-web-app-capable" content="yes" />
           <meta name="theme-color" content="#FFFFFF" />
           <link rel="apple-touch-icon" href="/icon.png"></link>
-          <link rel="shortcut icon" href="/mcu.png" />
+          <link rel="shortcut icon" href="/icon.png" />
           <link rel="manifest" href="/manifest.json" />
         </Head>
         <body>
