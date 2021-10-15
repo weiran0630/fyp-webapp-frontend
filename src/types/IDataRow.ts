@@ -1,0 +1,35 @@
+export default interface IDataRow {
+  "Unnamed: 14": string | null;
+  "Unnamed: 16": string | null;
+  "Unnamed: 18": string | null;
+  "Unnamed: 20": string | null;
+  "Unnamed: 22": string | null;
+  "Unnamed: 24": string | null;
+  "Unnamed: 26": string | null;
+  "Unnamed: 28": string | null;
+  "Unnamed: 30": string | null;
+  一: string | null;
+  三: string | null;
+  二: string | null;
+  五: string | null;
+  六: string | null;
+  四: string | null;
+  國: number;
+  國數自: number;
+  "國立科大(一)": string | null;
+  "國立科大(三)": string | null;
+  "國立科大(二)": string | null;
+  居住地區: string;
+  序號: number;
+  性別: "女" | "男";
+  數: number;
+  畢業學校: string;
+  畢業年度: number;
+  社: number;
+  "科大志願數(國立)": string;
+  自: number;
+  英: number;
+  通過篩選志願數: number;
+  預測機率: number;
+  預測結果: number;
+}

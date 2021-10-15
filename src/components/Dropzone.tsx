@@ -10,7 +10,6 @@ interface DropzoneProps {
   setTaskId: (taskId: string | null) => void;
   setError: (error: string | null) => void;
 }
-
 export default function Dropzone({
   loading,
   setLoading,
@@ -58,8 +57,8 @@ export default function Dropzone({
         alignItems="center"
         py={40}
         borderWidth={4}
-        borderRadius={2}
-        borderStyle="dashed"
+        borderRadius={6}
+        // borderStyle="dashed"
         borderColor={colorMode === "light" ? "gray.300" : "gray.400"}
         bgColor={colorMode === "light" ? "gray.200" : "gray.500"}
         outline="none"
@@ -74,7 +73,7 @@ export default function Dropzone({
               colorScheme={loading ? "" : "teal"}
               mt={2}
               isLoading={loading}
-              loadingText="文件處理中..."
+              loadingText="文件分析中..."
               variant={loading ? "ghost" : "solid"}
             >
               點擊選取檔案

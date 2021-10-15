@@ -7,7 +7,7 @@ export default function Textbox() {
     <Box
       bgColor={colorMode === "light" ? "gray.200" : "gray.500"}
       p={4}
-      borderRadius={4}
+      borderRadius={6}
     >
       <Text fontSize="sm">
         拖拽文件到以下拖放區或點擊選取檔案進行批次預測，處理時間視乎文件行數可能長達數分鐘；

@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 
 export default function Footer() {
   return (
-    <Box as="footer">
+    <Box as="footer" role="contentinfo">
       <Text fontSize="sm">
         {new Date().getFullYear()} -{" "}
         <Link href="https://github.com/weiran0630" isExternal>
